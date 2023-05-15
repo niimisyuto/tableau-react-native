@@ -1,9 +1,11 @@
 import * as React from 'react';
+
 import { StyleSheet } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
+
 import { NavigationContainer } from '@react-navigation/native';
 
 import Viz1 from './screens/Viz1';
@@ -11,10 +13,10 @@ import Viz2 from './screens/Viz2';
 import Viz3 from './screens/Viz3';
 import Home from './screens/Home';
 import CardDetails from './screens/CardDetails';
+
 import { Image } from 'react-native-elements';
 
 const HomeStack = createStackNavigator();
-
 function HomeStackScreen() {
     return (
         <HomeStack.Navigator>
@@ -30,7 +32,7 @@ function HomeStackScreen() {
                     ),
                 }}
             />
-
+            まで)
             <HomeStack.Screen
                 name="Details"
                 component={CardDetails}

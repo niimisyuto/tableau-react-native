@@ -1,5 +1,5 @@
 import 'react-native-gesture-handler';
-import {navContainer} from './src/router';
+import { navContainer } from './src/router';
 
 const App = navContainer;
 

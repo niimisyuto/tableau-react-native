@@ -4,7 +4,7 @@
 
 - git
 - jdk 11.0.8
-- androidstudio 33 tiramisu, adb or nox, gradle 7.5.1 all 
+- androidstudio 33 tiramisu, adb, gradle 7.5.1 all 
 - node 16.20 (nvm)
 - watchman
 
@@ -27,9 +27,11 @@ npm i
 ```shell
 npx react-native start
 ```
-### ts build後,bundle, android にコンパイル
+### bundle + android にコンパイル
 
 ```shell
 a
-
 ```
+### react-native debugモード
+
+- android端末上でctrl + m

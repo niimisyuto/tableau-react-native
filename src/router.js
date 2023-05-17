@@ -32,7 +32,6 @@ function HomeStackScreen() {
                     ),
                 }}
             />
-            まで)
             <HomeStack.Screen
                 name="Details"
                 component={CardDetails}

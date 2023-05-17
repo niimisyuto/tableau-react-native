@@ -22,22 +22,14 @@ npm i
 
 ## 実行
 
-### bundler を起動
+### metroを起動 
 
 ```shell
-npx react-native1 start
+npx react-native start
 ```
-
-### js ファイルをバンドルする
+### ts build後,bundle, android にコンパイル
 
 ```shell
-npx react-native bundle --platform android --dev false --entry-file index.js
---bundle-output D:/Dev/AwesomeProject/android/app/src/main/assets/index.android.bundle
---assets-dest D:/Dev/AwesomeProject/android/app/src/main/res --verbose-
-```
+a
 
-### android にコンパイル
-
-```.shell
-npx react-native run
 ```

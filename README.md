@@ -1,4 +1,7 @@
-# react-native 公式に tableau を追加した形
+# react-native 公式に [tableauのコミュニティソース](https://github.com/tableau/mobile-app-bootstrap-react-native) を追加した形
+
+![image](https://github.com/niimisyuto/tableau-react-native/assets/71388489/8c64dbd3-d5ce-4f67-ba99-5a43788f5eaa)
+
 
 ## react-native 導入手順
 

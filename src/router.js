@@ -1,13 +1,12 @@
-/* eslint-disable react/no-unstable-nested-components */
 import * as React from 'react';
 
-import {StyleSheet, Image, View} from 'react-native';
-import {SafeAreaProvider} from 'react-native-safe-area-context';
+import { StyleSheet, Image, View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/Ionicons';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {createStackNavigator} from '@react-navigation/stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createStackNavigator } from '@react-navigation/stack';
 
-import {NavigationContainer} from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 
 import Viz1 from './screens/Viz1';
 import Viz2 from './screens/Viz2';
@@ -42,7 +41,7 @@ function HomeStackScreen() {
       <HomeStack.Screen
         name="Details"
         component={CardDetails}
-        options={({route}) => ({title: route.params.headerTitle})}
+        options={({ route }) => ({ title: route.params.headerTitle })}
       />
     </HomeStack.Navigator>
   );
@@ -59,7 +58,7 @@ export function navContainer() {
             name="Home"
             component={HomeStackScreen}
             options={{
-              tabBarIcon: ({color}) => (
+              tabBarIcon: ({ color }) => (
                 <Icon
                   name="home-outline"
                   color={color}
@@ -73,7 +72,7 @@ export function navContainer() {
             name="Viz1"
             component={Viz1}
             options={{
-              tabBarIcon: ({color}) => (
+              tabBarIcon: ({ color }) => (
                 <Icon
                   name="pulse-outline"
                   color={color}
@@ -87,7 +86,7 @@ export function navContainer() {
             name="Viz2"
             component={Viz2}
             options={{
-              tabBarIcon: ({color}) => (
+              tabBarIcon: ({ color }) => (
                 <Icon
                   name="pulse-outline"
                   color={color}
@@ -101,7 +100,7 @@ export function navContainer() {
             name="Viz3"
             component={Viz3}
             options={{
-              tabBarIcon: ({color}) => (
+              tabBarIcon: ({ color }) => (
                 <Icon
                   name="pulse-outline"
                   color={color}
@@ -126,7 +125,7 @@ const styles = StyleSheet.create({
     padding: 50,
   },
   headerImage: {
-    flex: 1,
+    /*     flex: 1, */
     resizeMode: 'contain',
     height: 60,
   },
